@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Martin Rodriguez">
+        <meta name="copyright" content="MR">
+        <meta name="description" content="Formulario de Inscripcion">
+        <title>Formulario Registro</title>
+
+        <style>
+
+            
+        </style>
+
+    </head>
+             
+    <body>
+        <div>
+
+                
+            <div id="cyan" style="background-color: goldenrod;
+              height: 10%;
+              width: 100%;"><br><br>  
+
+                <center><h2>Formulario de Inscripcion</h2>
+                </center>
+
+
+            </div>
+            
+            <div id="cyan" style="background-color: khaki;height: 100%;
+                width: 100%;">
+                <br><br>
+         
+                                
+                <form>
+              
+        
+                    <label for="name">Nombre:   </label>
+                    <input type="text"name=""placeholder="Texto..." required maxlength="15"><br><br>
+            
+                    <label for="name">Apellido:   </label>
+                    <input type="text"name=""placeholder="Texto..." required maxlength="15"><br><br>
+            
+                    <label for="name">Telefono: </label>
+                    <input type="text"name="" value="+54 "  required maxlength="15"><br><br>
+
+                    <label for="name">Direccion: </label>
+                    <input type="text"name=""required maxlength="15"><br><br>
+
+                    <label for="name">Email: </label>
+                    <input type="text" ><br><br>
+
+                    <label for="name">Fecha de nacimiento: </label>
+                    <input type="date" value="2023-01-01" min="1900-01-01" max="2005-01-01"><br><br>
+
+                    <label for="name"> Pais de nacimiento: </label>
+                    <input type="text"><br><br>
+
+                    <label for="name"> Trabaja: Seleccione SI/NO </label><br>
+                    <input type="checkbox" value="SI">SI
+                    <input type="checkbox" value="NO">NO<br><br>
+
+                    <label for="name">Ingrese Turno: </label>
+                    <input type="radio" value="M">Mañana
+                    <input type="radio" value="T">Tarde
+                    <input type="radio" value="N">Noche <br><br>
+
+                    <label for="name">Adjunte archivo con documentacion requerida:     </label>
+                    <input type="file"><br><br><br>
+
+                    <button type="submit">Inscribirse</button><br><br>             
+                    <button type="reset">Reiniciar formulario</button><br><br>
+
+                    <textarea name="textoarea" placeholder="Ingrese comentario aqui (opcional): " rows="6" cols="90"></textarea><br><br>
+        
+                </form>
+                
+            </div>
+                        
+
+        </body>
+
+
+   </html>
